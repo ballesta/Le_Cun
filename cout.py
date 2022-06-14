@@ -4,7 +4,7 @@ from array import array
 def f(entrees,parametres) -> array:
     return [0.8, 0.2, 0.1] 
 
-def Cout(entrees,sorties_desirees,parametres):
+def Cout(entrees,sorties_desirees,parametres) -> float:
     sorties_produites = f(entrees,parametres)
     cout = 0
     for j in range(len(sorties_desirees)):
