@@ -1,3 +1,4 @@
+# Experimentation version 1
 # Fonction de coût
 from array import array
 
